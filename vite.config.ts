@@ -9,6 +9,7 @@ export default defineConfig({
     react(),
     runtimeErrorOverlay(),
     themePlugin(),
+  base: "/teste",
     ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
       ? [
